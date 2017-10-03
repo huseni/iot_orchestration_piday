@@ -36,7 +36,7 @@ def post_request(epoc_val):
 
     dataAsJSON = json.dumps(data)
     headers = {  "Content-type" : "application/json"  }
-    response = requests.post("https://api.aerframe.aeris.com/smsmessaging/v2/1/outbound/taf-papp/requests?apiKey=3965e581-120d-11e2-8fb3-6362753ec2a5", data=dataAsJSON, headers=headers)
+    response = requests.post("https://api.aerframe.aeris.com/smsmessaging/v2/1/outbound/taf-papp/requests?apiKey=5736hdgs-120d-jdh32-8fb3-hd7ye373hs", data=dataAsJSON, headers=headers)
     if response:  
         if response.status_code == 201:
             print("*********** Successfully able to send SMS ***************")
